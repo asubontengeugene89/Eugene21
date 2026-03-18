@@ -1,0 +1,135 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nkoranman Senior High School | Official Website</title>
+    <style>
+        /* CSS Styling */
+        :root {
+            --primary-blue: #004a99;
+            --secondary-gold: #ffcc00; /* Common accent for GH schools */
+            --light-gray: #f4f4f4;
+            --dark-text: #333;
+        }
+
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; color: var(--dark-text); scroll-behavior: smooth; }
+        
+        /* Navigation */
+        header { background: var(--primary-blue); color: white; padding: 1.5rem; text-align: center; border-bottom: 4px solid var(--secondary-gold); }
+        nav { sticky; top: 0; background: white; padding: 15px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
+        nav a { margin: 0 15px; text-decoration: none; color: var(--primary-blue); font-weight: bold; transition: 0.3s; }
+        nav a:hover { color: var(--secondary-gold); }
+
+        /* Sections */
+        .hero { background: linear-gradient(rgba(0,74,153,0.8), rgba(0,74,153,0.8)), url('https://via.placeholder.com/1200x400'); background-size: cover; color: white; padding: 80px 20px; text-align: center; }
+        .container { padding: 40px 20px; max-width: 1100px; margin: auto; }
+        .section-title { border-bottom: 3px solid var(--primary-blue); display: inline-block; margin-bottom: 20px; padding-bottom: 5px; }
+
+        /* Grid Layouts */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 20px; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-top: 5px solid var(--primary-blue); }
+
+        /* News & Forms */
+        .news-item { border-left: 5px solid var(--secondary-gold); padding-left: 15px; margin-bottom: 20px; background: #fff; padding: 10px; }
+        input, textarea { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        .btn { background: var(--primary-blue); color: white; padding: 12px 30px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold; }
+        .btn:hover { background: #003366; }
+
+        footer { background: #222; color: white; text-align: center; padding: 2rem; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+<header>
+  <img src=""
+  <p aln="right">
+    CORE VALUES:
+    <li align="right">
+  <li align="right">HARD WORK</li>
+  <li align="Right">EQUITY</li>
+  <li align="right">GOD FEARING</li>
+  </li>
+  </p>
+    <h1>NKORANMAN SENIOR HIGH SCHOOL</h1>
+    <p>Seikwa, Bono Region <br><br> Motto:  <br> <u><b><i>KASO CHEREGE GUDAA</i></b></u></p>
+    
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#academics">Programmes</a>
+    <a href="#news">News</a>
+    <a href="#alumni">Alumni</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Empowering Minds, Shaping Futures</h2>
+    <p>Providing quality education and moral uprightness since 1989.</p>
+    <a href="#contact" style="text-decoration: none;"><button class="btn" style="background: var(--secondary-gold); color: #000;">Enroll Today</button></a>
+</section>
+
+<div class="container" id="about">
+    <h2 class="section-title">Headmaster's Welcome</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 30px; align-items: center;">
+        <div style="flex: 1; min-width: 200px; background: #ddd; height: 250px; border-radius: 8px; display: flex; align-items: center; justify-content: center;">[Headmaster Photo]</div>
+        <div style="flex: 2; min-width: 300px;">
+            <p>"Welcome to Nkoranman SHS. We believe in holistic education where every student is mentored to reach their full potential. Our campus in Seikwa is a home for academic excellence and discipline."</p>
+            <strong>The Headmaste:<br><b><u><i>NANA WADIE AMPONG FELIX</i></u></b></strong>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="academics" style="background: var(--light-gray);">
+    <h2 class="section-title">Our Academic Programmes</h2>
+    <div class="grid">
+        <div class="card"><h3>General Science</h3><p>Physics, Chemistry, Biology, and Elective Maths.</p></div>
+        <div class="card"><h3>Business</h3><p>Accounting, Business Management, Economics, and Costing.</p></div>
+        <div class="card"><h3>General Arts</h3><p>Government, Economics, CRS, History, and Geography.</p></div>
+        <div class="card"><h3>Home Economics</h3><p>Management in Living, Foods & Nutrition, and Textiles.</p></div>
+    </div>
+</div>
+
+<div class="container" id="news">
+    <h2 class="section-title">Latest News</h2>
+    <div class="news-item">
+        <h4>WASSCE Preparations Underway</h4>
+        <p>Final year students have begun intensive evening classes to ensure record-breaking results this year.</p>
+    </div>
+    <div class="news-item">
+        <h4>New Computer Lab Commissioned</h4>
+        <p>Thanks to the PTA, 20 new desktop computers have been installed for ICT practicals.</p>
+    </div>
+</div>
+
+<section id="alumni" style="background: var(--primary-blue); color: white; text-align: center; padding: 60px 20px;">
+    <h2>Calling All Nkoranmanba!</h2>
+    <p>Join our Alumni Network to give back and stay connected.</p>
+    <button class="btn" style="background: white; color: var(--primary-blue);">Register as Alumni</button>
+</section>
+
+<div class="container" id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <div class="grid">
+        <div>
+            <p><strong>📍 Address:</strong> P.O. Box 15, Seikwa, Bono Region</p>
+            <p><strong>📞 Phone:</strong> +233(0)592500834</p>
+            <p><strong>📧 eugeneasubonteng16@gmail.com</p>
+        </div>
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit" class="btn">Submit Message</button>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Nkoranman Senior High School. All Rights Reserved.</p>
+    <p>Designed by <b><i><U>EUGENE ASUBONTEG</U></i></b></p>
+</footer>
+
+</body>
+</html>
